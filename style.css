@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.left {
+  background: linear-gradient(to bottom, #024B8B, #023059);
+}
+
+.right {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.left h1 {
+  color: #E5E5E5;
+}
+
+.right h1 {
+  color: #023059;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  height: 100px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  background-color: #E5E5E5;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 22px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #023059;
+  border: none;
+  border-radius: 4px;
+}
+
+button:focus {
+  background-color: #E5E5E5;
+}
